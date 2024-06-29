@@ -84,7 +84,7 @@ Configuration file that contains characteristic of game field.
 
 - **Predators**: Bear, Boa, Eagle, Fox, Wolf
 - **Plants**: Grass, Tree, Mushroom
-- **Herbivores**: Buffalo, Caterpillar, Deer, Horse, Mouse, Sheep, Rabbit, Boar, Duck, Goat
+- **Herbivores**: Buffalo, Caterpillar, Deer, Horse, Mouse, Sheep, Rabbit, Boar, Duck, Goat, Frog
 
 ---
 
