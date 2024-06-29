@@ -14,6 +14,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class FeedService {
     @Getter
     private static FeedService instance = new FeedService();
+    private EatChanceService eatChanceService = EatChanceService.getInstance();
     private FeedService(){
 
     }
@@ -32,15 +33,16 @@ public class FeedService {
                 objectsToRemove.add(objToEat);
             }
         } else if(objToEat instanceof Animal){
-            if(animal.getType().getAnimalClass()== AnimalType.AnimalClass.HERBIVOROUS)return false ;
-            if(animal.getWeight()+objToEat.getWeight()<animal.getMaxWeight()){
-                animal.setWeight(objToEat.getWeight()>animal.getWeightToBeFull()? animal.getWeight() + animal.getWeightToBeFull():animal.getWeight()+objToEat.getWeight() );
-                if(objToEat.isPoisoned()){
-                    objectsToRemove.add((AliveObject)animal);
-                    cell.getAliveObjects().removeAll(objectsToRemove);
-                    return true;
+            if(Math.random()*100>eatChanceService.getProbability(animal.getType(),((Animal) objToEat).getType())) {
+                if (animal.getWeight() + objToEat.getWeight() < animal.getMaxWeight()) {
+                    animal.setWeight(objToEat.getWeight() > animal.getWeightToBeFull() ? animal.getWeight() + animal.getWeightToBeFull() : animal.getWeight() + objToEat.getWeight());
+                    if (objToEat.isPoisoned()) {
+                        objectsToRemove.add((AliveObject) animal);
+                        cell.getAliveObjects().removeAll(objectsToRemove);
+                        return true;
+                    }
+                    objectsToRemove.add(objToEat);
                 }
-                objectsToRemove.add(objToEat);
             }
         }
         cell.getAliveObjects().removeAll(objectsToRemove);
