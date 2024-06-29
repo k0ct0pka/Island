@@ -1,0 +1,17 @@
+[
+  {
+    "weight": 1,
+    "capacityInOneCell": 300,
+    "type": "GRASS"
+  },
+  {
+    "weight": 50,
+    "capacityInOneCell": 20,
+    "type": "TREE"
+  },
+  {
+    "weight": 1,
+    "capacityInOneCell": 100,
+    "type": "MUSHROOMS"
+  }
+]

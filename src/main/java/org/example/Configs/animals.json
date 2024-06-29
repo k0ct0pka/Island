@@ -1,0 +1,159 @@
+[
+  {
+    "weight": 50,
+    "capacityInOneCell": 30,
+    "type": "WOLF",
+    "countKids": 3,
+    "age": 3,
+    "maxWeight": 80,
+    "speed": 3,
+    "weightToBeFull": 8,
+    "minWeight": 30
+  },
+  {
+    "weight": 15,
+    "capacityInOneCell": 30,
+    "type": "BOA",
+    "countKids": 5,
+    "age": 3,
+    "maxWeight": 30,
+    "speed": 1,
+    "weightToBeFull": 3,
+    "minWeight": 5
+  },
+  {
+    "weight": 8,
+    "capacityInOneCell": 30,
+    "type": "FOX",
+    "countKids": 5,
+    "age": 3,
+    "maxWeight": 20,
+    "speed": 2,
+    "weightToBeFull": 2,
+    "minWeight": 2
+  },
+  {
+    "weight": 500,
+    "capacityInOneCell": 5,
+    "type": "BEAR",
+    "countKids": 1,
+    "age": 3,
+    "maxWeight": 800,
+    "speed": 2,
+    "weightToBeFull": 80,
+    "minWeight": 300
+  },
+  {
+    "weight": 6,
+    "capacityInOneCell": 20,
+    "type": "EAGLE",
+    "countKids": 5,
+    "age": 3,
+    "maxWeight": 20,
+    "speed": 3,
+    "weightToBeFull": 1,
+    "minWeight": 2
+  },
+  {
+    "weight": 400,
+    "capacityInOneCell": 20,
+    "type": "HORSE",
+    "countKids": 2,
+    "age": 3,
+    "maxWeight": 600,
+    "speed": 4,
+    "weightToBeFull": 60,
+    "minWeight": 100
+  },
+  {
+    "weight": 1,
+    "capacityInOneCell": 150,
+    "type": "RABBIT",
+    "countKids": 5,
+    "age": 3,
+    "maxWeight": 3,
+    "speed": 2,
+    "weightToBeFull": 0.5,
+    "minWeight": 0.2
+  },
+  {
+    "weight": 0.1,
+    "capacityInOneCell": 500,
+    "type": "MOUSE",
+    "countKids": 10,
+    "age": 3,
+    "maxWeight": 0.5,
+    "speed": 1,
+    "weightToBeFull": 0.1,
+    "minWeight": 0.05
+  },
+  {
+    "weight": 60,
+    "capacityInOneCell": 140,
+    "type": "GOAT",
+    "countKids": 5,
+    "age": 3,
+    "maxWeight": 80,
+    "speed": 3,
+    "weightToBeFull": 10,
+    "minWeight": 16
+  },
+  {
+    "weight": 70,
+    "capacityInOneCell": 140,
+    "type": "SHEEP",
+    "countKids": 5,
+    "age": 3,
+    "maxWeight": 80,
+    "speed": 3,
+    "weightToBeFull": 15,
+    "minWeight": 16
+  },
+  {
+    "weight": 400,
+    "capacityInOneCell": 50,
+    "type": "BOAR",
+    "countKids": 2,
+    "age": 3,
+    "maxWeight": 500,
+    "speed": 2,
+    "weightToBeFull": 50,
+    "minWeight": 100
+  },
+  {
+    "weight": 700,
+    "capacityInOneCell": 10,
+    "type": "BUFFALO",
+    "countKids": 2,
+    "age": 3,
+    "maxWeight": 800,
+    "speed": 3,
+    "weightToBeFull": 100,
+    "minWeight": 160
+  },
+  {
+    "weight": 1,
+    "capacityInOneCell": 200,
+    "type": "DUCK",
+    "countKids": 15,
+    "age": 3,
+    "maxWeight": 3,
+    "speed": 4,
+    "weightToBeFull": 0.5,
+    "minWeight": 0.2
+  },
+  {
+    "weight": 0.015,
+    "capacityInOneCell": 1000,
+    "type": "CATERPILLAR",
+    "countKids": 50,
+    "age": 3,
+    "maxWeight": 0.03,
+    "speed": 0,
+    "weightToBeFull": 0.01,
+    "minWeight": 0.003
+  }
+]
+
+
+
