@@ -1,7 +1,8 @@
 config:
   WOLF:
     WOLF: 0
-    ANACONDA: 10
+    BOA: 10
+    FROG: 5
     FOX: 10
     BEAR: 0
     EAGLE: 10
@@ -15,10 +16,10 @@ config:
     BUFFALO: 30
     DUCK: 80
     CATERPILLAR: 0
-    PLANT: 0
-  ANACONDA:
+  BOA:
     WOLF: 0
-    ANACONDA: 0
+    BOA: 0
+    FROG: 90
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -32,10 +33,10 @@ config:
     BUFFALO: 0
     DUCK: 50
     CATERPILLAR: 90
-    PLANT: 0
   FOX:
     WOLF: 0
-    ANACONDA: 20
+    BOA: 20
+    FROG: 10
     FOX: 0
     BEAR: 0
     EAGLE: 10
@@ -49,10 +50,10 @@ config:
     BUFFALO: 0
     DUCK: 80
     CATERPILLAR: 0
-    PLANT: 0
   BEAR:
     WOLF: 20
-    ANACONDA: 30
+    BOA: 30
+    FROG: 5
     FOX: 20
     BEAR: 0
     EAGLE: 30
@@ -66,10 +67,10 @@ config:
     BUFFALO: 75
     DUCK: 80
     CATERPILLAR: 0
-    PLANT: 0
   EAGLE:
     WOLF: 0
-    ANACONDA: 50
+    BOA: 50
+    FROG: 90
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -83,10 +84,10 @@ config:
     BUFFALO: 0
     DUCK: 85
     CATERPILLAR: 20
-    PLANT: 0
   HORSE:
     WOLF: 0
-    ANACONDA: 0
+    BOA: 0
+    FROG: 0
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -100,10 +101,10 @@ config:
     BUFFALO: 0
     DUCK: 0
     CATERPILLAR: 0
-    PLANT: 100
   DEER:
     WOLF: 0
-    ANACONDA: 0
+    BOA: 0
+    FROG: 0
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -117,10 +118,10 @@ config:
     BUFFALO: 0
     DUCK: 0
     CATERPILLAR: 0
-    PLANT: 100
   RABBIT:
     WOLF: 0
-    ANACONDA: 0
+    BOA: 0
+    FROG: 0
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -134,10 +135,10 @@ config:
     BUFFALO: 0
     DUCK: 0
     CATERPILLAR: 0
-    PLANT: 100
   MOUSE:
     WOLF: 0
-    ANACONDA: 0
+    BOA: 0
+    FROG: 0
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -151,10 +152,10 @@ config:
     BUFFALO: 0
     DUCK: 0
     CATERPILLAR: 0
-    PLANT: 100
   GOAT:
     WOLF: 0
-    ANACONDA: 0
+    BOA: 0
+    FROG: 1
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -168,10 +169,10 @@ config:
     BUFFALO: 0
     DUCK: 0
     CATERPILLAR: 0
-    PLANT: 100
   SHEEP:
     WOLF: 0
-    ANACONDA: 0
+    BOA: 0
+    FROG: 0
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -185,10 +186,10 @@ config:
     BUFFALO: 0
     DUCK: 0
     CATERPILLAR: 0
-    PLANT: 100
   BOAR:
     WOLF: 0
-    ANACONDA: 0
+    BOA: 0
+    FROG: 1
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -202,10 +203,10 @@ config:
     BUFFALO: 0
     DUCK: 0
     CATERPILLAR: 0
-    PLANT: 100
   BUFFALO:
     WOLF: 0
-    ANACONDA: 0
+    BOA: 0
+    FROG: 0
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -219,10 +220,10 @@ config:
     BUFFALO: 0
     DUCK: 0
     CATERPILLAR: 0
-    PLANT: 100
   DUCK:
     WOLF: 0
-    ANACONDA: 0
+    BOA: 0
+    FROG: 0
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -236,10 +237,10 @@ config:
     BUFFALO: 0
     DUCK: 0
     CATERPILLAR: 50
-    PLANT: 100
   CATERPILLAR:
     WOLF: 0
-    ANACONDA: 0
+    BOA: 0
+    FROG: 0
     FOX: 0
     BEAR: 0
     EAGLE: 0
@@ -253,21 +254,3 @@ config:
     BUFFALO: 0
     DUCK: 0
     CATERPILLAR: 0
-    PLANT: 100
-  PLANT:
-    WOLF: 0
-    ANACONDA: 0
-    FOX: 0
-    BEAR: 0
-    EAGLE: 0
-    HORSE: 0
-    DEER: 0
-    RABBIT: 0
-    MOUSE: 0
-    GOAT: 0
-    SHEEP: 0
-    BOAR: 0
-    BUFFALO: 0
-    DUCK: 0
-    CATERPILLAR: 0
-    PLANT: 0

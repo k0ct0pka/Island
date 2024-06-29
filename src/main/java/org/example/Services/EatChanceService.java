@@ -30,7 +30,7 @@ public class EatChanceService {
             while (br.ready()) {
                 AnimalType type = AnimalType.valueOf(br.readLine().trim().replaceAll(":", ""));
                 HashMap<AnimalType, Integer> internalConfig = new HashMap<>();
-                for (int i = 0; i < 16; i++) {
+                for (int i = 0; i < 17; i++) {
                     String text = br.readLine();
                     internalConfig.put(AnimalType.valueOf(text.trim().split(" ")[0].replaceAll(":", "")), Integer.valueOf(text.trim().split(" ")[1]));
                 }

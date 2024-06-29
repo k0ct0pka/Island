@@ -18,10 +18,10 @@ public class ConfigReader {
     @Getter
     private final static ConfigReader instance = new ConfigReader();
 
-    private static final String  MAP_CONFIG_PATH = "C:\\Users\\Lenovo\\IdeaProjects\\Island\\src\\Configs\\map.json";
-    private static final String ANIMALS_CONFIG_PATH = "C:\\Users\\Lenovo\\IdeaProjects\\Island\\src\\Configs\\animals.json";
-    private static final String PLANTS_CONFIG_PATH = "C:\\Users\\Lenovo\\IdeaProjects\\Island\\src\\Configs\\plants.json";
-    private static final String GAME_CONFIG_PATH = "C:\\Users\\Lenovo\\IdeaProjects\\Island\\src\\Configs\\game.json";
+    private static final String  MAP_CONFIG_PATH = "C:\\Users\\Lenovo\\IdeaProjects\\IslandGame\\src\\main\\java\\org\\example\\Configs\\map.json";
+    private static final String ANIMALS_CONFIG_PATH = "C:\\Users\\Lenovo\\IdeaProjects\\IslandGame\\src\\main\\java\\org\\example\\Configs\\animals.json";
+    private static final String PLANTS_CONFIG_PATH = "C:\\Users\\Lenovo\\IdeaProjects\\IslandGame\\src\\main\\java\\org\\example\\Configs\\plants.json";
+    private static final String GAME_CONFIG_PATH = "C:\\Users\\Lenovo\\IdeaProjects\\IslandGame\\src\\main\\java\\org\\example\\Configs\\game.json";
     private ConfigReader(){}
     ObjectMapper mapper = new ObjectMapper(new JsonFactory());
     public GameParams readGameParams() throws IOException {

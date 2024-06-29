@@ -22,6 +22,17 @@
     "minWeight": 5
   },
   {
+    "weight": 0.2,
+    "capacityInOneCell": 100,
+    "type": "FROG",
+    "countKids": 10,
+    "age": 3,
+    "maxWeight": 1,
+    "speed": 1,
+    "weightToBeFull": 0.1,
+    "minWeight": 0.05
+  },
+  {
     "weight": 8,
     "capacityInOneCell": 30,
     "type": "FOX",
@@ -58,6 +69,17 @@
     "weight": 400,
     "capacityInOneCell": 20,
     "type": "HORSE",
+    "countKids": 2,
+    "age": 3,
+    "maxWeight": 600,
+    "speed": 4,
+    "weightToBeFull": 60,
+    "minWeight": 100
+  },
+  {
+    "weight": 400,
+    "capacityInOneCell": 20,
+    "type": "DEER",
     "countKids": 2,
     "age": 3,
     "maxWeight": 600,
