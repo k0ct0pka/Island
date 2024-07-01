@@ -1,6 +1,8 @@
 package org.example.Services;
 
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.experimental.FieldDefaults;
 import org.example.Models.AliveObject;
 import org.example.Models.Animal;
 import org.example.Models.AnimalType;
@@ -11,10 +13,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
+@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 public class FeedService {
     @Getter
-    private static FeedService instance = new FeedService();
-    private EatChanceService eatChanceService = EatChanceService.getInstance();
+    static FeedService instance = new FeedService();
+    EatChanceService eatChanceService = EatChanceService.getInstance();
 
     private FeedService() {
 

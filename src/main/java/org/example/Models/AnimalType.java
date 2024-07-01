@@ -1,5 +1,7 @@
 package org.example.Models;
 
+import lombok.Getter;
+
 public enum AnimalType {
     WOLF(AnimalClass.HUNTER, false) {
         @Override
@@ -98,7 +100,7 @@ public enum AnimalType {
         }
     };
 
-
+    @Getter
     private final AnimalClass animalClass;
     private final boolean isPoisoned;
 
@@ -108,10 +110,6 @@ public enum AnimalType {
     }
 
     public abstract String toString();
-
-    public AnimalClass getAnimalClass() {
-        return animalClass;
-    }
 
     public boolean isPoisoned() {
 

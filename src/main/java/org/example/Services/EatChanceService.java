@@ -1,7 +1,9 @@
 package org.example.Services;
 
 
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.experimental.FieldDefaults;
 import org.example.Models.AnimalType;
 
 import java.io.BufferedReader;
@@ -9,11 +11,12 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 
+@FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 public class EatChanceService {
     @Getter
-    private static EatChanceService instance = new EatChanceService();
+    static EatChanceService instance = new EatChanceService();
     @Getter
-    private HashMap<AnimalType, HashMap<AnimalType, Integer>> config = new HashMap<>();
+    HashMap<AnimalType, HashMap<AnimalType, Integer>> config = new HashMap<>();
 
 
     private EatChanceService() {

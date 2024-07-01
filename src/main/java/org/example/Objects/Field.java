@@ -23,10 +23,4 @@ public class Field {
     @Setter
     private List<List<Cell>> cells = Collections.synchronizedList(new ArrayList<>());
 
-    public Field(int WIDTH, int HEIGHT) {
-        this.WIDTH = WIDTH;
-        this.HEIGHT = HEIGHT;
-
-    }
-
 }

@@ -10,7 +10,7 @@ import java.util.List;
 
 public class CountAliveObjectsInCellService {
     @Getter
-    private static CountAliveObjectsInCellService instance = new CountAliveObjectsInCellService();
+    private final static CountAliveObjectsInCellService instance = new CountAliveObjectsInCellService();
 
     private CountAliveObjectsInCellService() {
     }

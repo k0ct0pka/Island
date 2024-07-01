@@ -31,9 +31,9 @@ public class AliveObjectFactory {
 
     public AliveObject create(AliveObject o) {
         if (o instanceof Animal a) {
-            return animals.stream().filter(e -> e.getType() == ((Animal) o).getType()).findFirst().get();
+            return animals.stream().filter(e -> e.getType() == (a).getType()).findFirst().get();
         } else if (o instanceof Plant p) {
-            return plants.stream().filter(e -> e.getType() == ((Plant) p).getType()).findFirst().get();
+            return plants.stream().filter(e -> e.getType() == (p).getType()).findFirst().get();
         }
         throw new RuntimeException();
     }
