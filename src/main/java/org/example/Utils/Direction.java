@@ -1,5 +1,5 @@
 package org.example.Utils;
 
 public enum Direction {
-    LEFT,RIGHT,TOP,DOWN
+    LEFT, RIGHT, TOP, DOWN
 }

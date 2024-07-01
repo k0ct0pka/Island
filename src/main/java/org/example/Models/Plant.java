@@ -10,8 +10,9 @@ import lombok.experimental.FieldDefaults;
 @ToString
 public class Plant extends AliveObject {
     private PlantType type;
-    public Plant(double weight , int count , PlantType type){
-        super(weight,count);
+
+    public Plant(double weight, int count, PlantType type) {
+        super(weight, count);
         this.type = type;
     }
 

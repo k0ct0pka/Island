@@ -3,8 +3,7 @@ package org.example.Models;
 public enum PlantType {
     GRASS(false),
     TREE(false),
-    MUSHROOMS(true)
-    ;
+    MUSHROOMS(true);
     private final boolean isPoisoned;
 
     PlantType(boolean isPoisoned) {

@@ -1,7 +1,6 @@
 package org.example.Models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 

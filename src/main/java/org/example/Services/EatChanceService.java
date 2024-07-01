@@ -16,14 +16,14 @@ public class EatChanceService {
     private HashMap<AnimalType, HashMap<AnimalType, Integer>> config = new HashMap<>();
 
 
+    private EatChanceService() {
+    }
 
     public int getProbability(AnimalType predator, AnimalType victim) {
         if (config.isEmpty()) readFile();
         return config.get(predator).get(victim);
     }
 
-    private EatChanceService() {
-    }
     public void readFile() {
         try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Lenovo\\IdeaProjects\\IslandGame\\src\\main\\java\\org\\example\\Configs\\eatConfig.yml"))) {
             br.readLine();

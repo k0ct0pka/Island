@@ -1,12 +1,13 @@
 package org.example.Utils;
 
-import org.example.Services.ConfigReader;
 import lombok.Getter;
+import org.example.Services.ConfigReader;
 
 public class GameParams {
     @Getter
-    private static ConfigReader reader = ConfigReader.getInstance();
+    private static final ConfigReader reader = ConfigReader.getInstance();
     @Getter
     private int timeTaktMilis;
-    private GameParams(){};
+    private GameParams() {
+    }
 }
