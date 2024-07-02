@@ -23,7 +23,7 @@ public class FeedService {
 
     }
 
-    private boolean extracted(Cell cell, Animal animal, AliveObject objToEat, List<AliveObject> objectsToRemove) {
+    private boolean poisonLogic(Cell cell, Animal animal, AliveObject objToEat, List<AliveObject> objectsToRemove) {
         if (objToEat.isPoisoned()) {
             objectsToRemove.add(animal);
             cell.getAliveObjects().removeAll(objectsToRemove);
@@ -40,14 +40,14 @@ public class FeedService {
             if (animal.getType().getAnimalClass() == AnimalType.AnimalClass.HUNTER) return false;
             if (isFull) {
                 animal.setWeight(objToEat.getWeight() > animal.getWeightToBeFull() ? animal.getWeight() + animal.getWeightToBeFull() : animal.getWeight() + objToEat.getWeight());
-                if (extracted(cell, animal, objToEat, objectsToRemove)) return true;
+                if (poisonLogic(cell, animal, objToEat, objectsToRemove)) return true;
                 objectsToRemove.add(objToEat);
             }
         } else if ((objToEat instanceof Animal) &&
                 (Math.random() * 100 > eatChanceService.getProbability(animal.getType(), ((Animal) objToEat).getType())) &&
                 isFull) {
             animal.setWeight(objToEat.getWeight() > animal.getWeightToBeFull() ? animal.getWeight() + animal.getWeightToBeFull() : animal.getWeight() + objToEat.getWeight());
-            if (extracted(cell, animal, objToEat, objectsToRemove)) return true;
+            if (poisonLogic(cell, animal, objToEat, objectsToRemove)) return true;
             objectsToRemove.add(objToEat);
         }
         cell.getAliveObjects().removeAll(objectsToRemove);
